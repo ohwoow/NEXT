@@ -1,0 +1,132 @@
+@media screen and (max-width:1600px) {
+    
+}
+
+
+@media screen and (max-width:1368px) {
+    .offer__bg {
+        font-size: 200px;
+    }
+    .offer__title {
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .offer__text {
+        margin-left: 150px;
+    }
+    .offer__btn {
+        margin-left: 290px;
+    }
+    .next {
+        font-size: 200px;
+        width: 220px;
+        top: 52%;
+        left: 75%;
+    }
+    .next span {
+        line-height: 8.7rem;
+    }
+    .braaah {
+        display: none;
+    }
+
+    
+    .service {
+        flex-direction: column;
+    }
+    .service__item {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+
+
+@media screen and (max-width:960px) {
+    .next {
+        display: none;
+    }
+    
+    .footer {
+        padding-bottom: 60px;
+    }
+    .credits {
+        flex-direction: column;
+    }
+    .credits > * {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .header {
+        height: auto;
+        padding-top: 50px;
+    }
+    .header .container {
+        height: auto;
+        padding-bottom: 150px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav .logo {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    .header__menu {
+        position: relative;
+        top: auto;
+        right: auto;
+        float: none;
+    }
+
+    .offer {
+        position: relative;
+        top: auto;
+        left: auto;
+        padding-top: 300px;
+    }
+    .offer__bg {
+        position: relative;
+        font-size: 100px;
+    }
+    .offer__title {
+        width: auto;
+        font-size: 35px;
+        margin-left: 0;
+    }
+    .offer__text {
+        width: auto;
+        margin-left: 0;
+    }
+    .offer__btn {
+        margin-left: 0;
+    }
+
+    .services {
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .offer__title::after {
+        top: -15px;
+        right: 29px;
+    }
+
+    .section-title__title {
+        font-size: 60px;
+    }
+}
